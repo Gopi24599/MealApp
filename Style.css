@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Style for header */
+header{
+    display: flex;
+    margin: 20px;
+}
+
+/* Style for header links */
+header a{
+    font-family: Arial, Helvetica, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 30px;
+    margin: 10px;
+}
+
+/* Style for header links on hover */
+header a:hover{
+    text-decoration: underline;
+}
+
+/* Style for container */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #edeef0;
+  border-radius: 30px;
+  padding-left: 20px;
+  margin-bottom: 25px;
+  max-width: 500px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Style for input field */
+input{
+    /* color: #6f86b5; */
+    flex: 1;
+    font-size: 30px;
+    border: none;
+    outline: none;
+    text-transform: capitalize;
+    background: none;
+    padding: 10px;
+}
+
+/* Style for button */
+button{
+    border: none;
+    font-size: 30px;
+    outline: none;
+    padding: 30px 30px;
+    background: blue;
+    color: white;
+    font-weight: bolder;
+    text-transform: unset;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 40px;
+}
+
+/* Style for meal containers */
+.meal {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Style for meal images */
+.meal img {
+    width: 45%;
+    max-height: 250px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+/* Style for meal headings */
+.meal h2 {
+    margin: 10px 0;
+    font-size: 24px;
+    text-align: center;
+    color: red;
+}
+
+.meal ul {
+    color: blue;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+    text-decoration-style: solid;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    /* ?margin-left: 20px; */
+}
+
+.meal li {
+    margin-bottom: 5px;
+}
+
+.meal button {
+    background-color: #fff;
+    border: none;
+    color: #ff5945;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.meal button:hover {
+    background-color: #ddd;
+}
+
+.description {
+    display: none;
+}
+  
+.show {
+    display: block;
+}
+
+p{
+    font-size: 20px;
+    margin-left: 10px;
+    word-spacing: 2px;
+    line-height: 35px;
+    text-align: justify;
+    color: grey;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    padding: 5px;
+    
+}
